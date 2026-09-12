@@ -36,8 +36,7 @@ document.addEventListener('keydown', (e) => {
   const key = e.key.toUpperCase();
   const blockedCombo =
     (e.ctrlKey && ['U', 'S', 'C'].includes(key)) ||
-    (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(key)) ||
-    key === 'F12';
+    (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(key));
 
   if (blockedCombo) e.preventDefault();
 });
