@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://st46.fun/sitemap.xml
