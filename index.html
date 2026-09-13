@@ -1,124 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ST46 — Игры. Люди. Сообщество.</title>
-<meta name="description" content="ST46 — игровое сообщество в Discord. Присоединяйся к нам!">
-<link rel="icon" href="assets/logo.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header class="nav">
-  <a href="#home" class="nav__logo">
-    <img src="assets/logo.jpg" alt="ST46" class="nav__logo-img">
-  </a>
-  <nav class="nav__links">
-    <a href="#home" class="nav__link is-active">Главная</a>
-    <a href="#about" class="nav__link">О клане</a>
-    <a href="#links" class="nav__link">Ссылки</a>
-  </nav>
-</header>
-
-<main>
-
-  <section id="home" class="hero">
-    <div class="hero__content">
-      <img src="assets/logo.jpg" alt="ST46" class="hero__logo">
-      <h1 class="hero__title">S T 4 6</h1>
-      <p class="hero__subtitle">Игры. Люди. Сообщество.<br>Присоединяйся к нашему Discord!</p>
-      <a href="https://discord.gg/EXEZMRpvZB" target="_blank" rel="noopener" class="btn-discord">
-        <svg class="btn-discord__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M20.317 4.369A19.79 19.79 0 0 0 15.885 3c-.211.375-.457.879-.626 1.278a18.27 18.27 0 0 0-5.518 0A12.76 12.76 0 0 0 9.115 3 19.736 19.736 0 0 0 4.68 4.372C1.556 9.014.8 13.539 1.177 18.001a19.9 19.9 0 0 0 5.993 3.03 14.9 14.9 0 0 0 1.283-2.077 12.9 12.9 0 0 1-2.02-.968c.17-.124.336-.253.497-.386 3.896 1.792 8.118 1.792 11.968 0 .163.133.329.262.497.386-.641.382-1.322.71-2.02.968.375.727.804 1.42 1.283 2.078a19.84 19.84 0 0 0 5.997-3.031c.5-5.177-.838-9.66-3.338-13.632ZM8.02 15.278c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.955 2.428-2.157 2.428Zm7.96 0c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.947 2.428-2.157 2.428Z" fill="currentColor"/>
-        </svg>
-        ВСТУПИТЬ В DISCORD
-        <svg class="btn-discord__arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ST46 — Игры. Люди. Сообщество.</title>
+    <meta
+      name="description"
+      content="ST46 — игровое сообщество в Discord. Присоединяйся к нам!"
+    />
+    <link rel="icon" href="assets/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a href="#home" class="nav__logo">
+        <img src="assets/logo.jpg" alt="ST46" class="nav__logo-img" />
       </a>
-    </div>
+      <nav class="nav__links">
+        <a href="#home" class="nav__link is-active">Главная</a>
+        <a href="#about" class="nav__link">О клане</a>
+        <a href="#links" class="nav__link">Ссылки</a>
+      </nav>
+    </header>
 
-    <div class="hero__gallery" aria-hidden="true">
-      <div class="photo-card photo-card--1" style="background-image: url('assets/gallery-1.jpg');"><span>ST46</span></div>
-      <div class="photo-card photo-card--2" style="background-image: url('assets/gallery-2.jpg');"><span>&gt; connecting...</span></div>
-      <div class="photo-card photo-card--3" style="background-image: url('assets/gallery-3.jpg');"><span>ST46</span></div>
-    </div>
-  </section>
+    <main>
+      <section id="home" class="hero">
+        <div class="hero__content">
+          <img src="assets/logo.jpg" alt="ST46" class="hero__logo" />
+          <h1 class="hero__title">S T 4 6</h1>
+          <p class="hero__subtitle">
+            Игры. Люди. Сообщество.<br />Присоединяйся к нашему Discord!
+          </p>
+          <a
+            href="https://discord.gg/EXEZMRpvZB"
+            target="_blank"
+            rel="noopener"
+            class="btn-discord"
+          >
+            <svg
+              class="btn-discord__icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M20.317 4.369A19.79 19.79 0 0 0 15.885 3c-.211.375-.457.879-.626 1.278a18.27 18.27 0 0 0-5.518 0A12.76 12.76 0 0 0 9.115 3 19.736 19.736 0 0 0 4.68 4.372C1.556 9.014.8 13.539 1.177 18.001a19.9 19.9 0 0 0 5.993 3.03 14.9 14.9 0 0 0 1.283-2.077 12.9 12.9 0 0 1-2.02-.968c.17-.124.336-.253.497-.386 3.896 1.792 8.118 1.792 11.968 0 .163.133.329.262.497.386-.641.382-1.322.71-2.02.968.375.727.804 1.42 1.283 2.078a19.84 19.84 0 0 0 5.997-3.031c.5-5.177-.838-9.66-3.338-13.632ZM8.02 15.278c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.955 2.428-2.157 2.428Zm7.96 0c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.947 2.428-2.157 2.428Z"
+                fill="currentColor"
+              />
+            </svg>
+            ВСТУПИТЬ В DISCORD
+            <svg
+              class="btn-discord__arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M5 12h14M13 6l6 6-6 6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
 
-  <section class="features">
-    <div class="feature">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12h4m-2-2v4M15.5 13.5h.01M18 11.5h.01M8 8h8a4 4 0 0 1 4 4v0a4 4 0 0 1-4 4h-.5l-1.2 1.6a2 2 0 0 1-3.2 0L10.5 16H8a4 4 0 0 1-4-4v0a4 4 0 0 1 4-4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span>ИГРЫ</span>
-    </div>
-    <div class="feature">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 19c.5-3 2.7-5 5.5-5s5 2 5.5 5M14.5 14.5c2.2.2 4 1.8 4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <span>ДРУЗЬЯ</span>
-    </div>
-    <div class="feature">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v6a2.5 2.5 0 0 1-2.5 2.5H10l-4 3.5v-3.5H6.5A2.5 2.5 0 0 1 4 12.5v-6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-      <span>ОБЩЕНИЕ</span>
-    </div>
-    <div class="feature">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3.5l2.5 5.6 6 .6-4.5 4 1.3 6-5.3-3.2-5.3 3.2 1.3-6-4.5-4 6-.6L12 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-      <span>ИВЕНТЫ</span>
-    </div>
-  </section>
+        <div class="hero__gallery" aria-hidden="true">
+          <div
+            class="photo-card photo-card--1"
+            style="background-image: url(&quot;assets/gallery-1.jpg&quot;)"
+          >
+            <span>ST46</span>
+          </div>
+          <div
+            class="photo-card photo-card--2"
+            style="background-image: url(&quot;assets/gallery-2.jpg&quot;)"
+          >
+            <span>&gt; connecting...</span>
+          </div>
+          <div
+            class="photo-card photo-card--3"
+            style="background-image: url(&quot;assets/gallery-3.jpg&quot;)"
+          >
+            <span>ST46</span>
+          </div>
+        </div>
+      </section>
 
-  <hr class="divider">
+      <section class="features">
+        <div class="feature">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 12h4m-2-2v4M15.5 13.5h.01M18 11.5h.01M8 8h8a4 4 0 0 1 4 4v0a4 4 0 0 1-4 4h-.5l-1.2 1.6a2 2 0 0 1-3.2 0L10.5 16H8a4 4 0 0 1-4-4v0a4 4 0 0 1 4-4Z"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>ИГРЫ</span>
+        </div>
+        <div class="feature">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="9"
+              cy="8"
+              r="3"
+              stroke="currentColor"
+              stroke-width="1.5"
+            />
+            <circle
+              cx="17"
+              cy="9"
+              r="2.5"
+              stroke="currentColor"
+              stroke-width="1.5"
+            />
+            <path
+              d="M3.5 19c.5-3 2.7-5 5.5-5s5 2 5.5 5M14.5 14.5c2.2.2 4 1.8 4.5 4.5"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>ДРУЗЬЯ</span>
+        </div>
+        <div class="feature">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v6a2.5 2.5 0 0 1-2.5 2.5H10l-4 3.5v-3.5H6.5A2.5 2.5 0 0 1 4 12.5v-6Z"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>ОБЩЕНИЕ</span>
+        </div>
+        <div class="feature">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 3.5l2.5 5.6 6 .6-4.5 4 1.3 6-5.3-3.2-5.3 3.2 1.3-6-4.5-4 6-.6L12 3.5Z"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>ИВЕНТЫ</span>
+        </div>
+      </section>
 
-  <section id="about" class="history">
-    <p class="history__eyebrow">ИСТОРИЯ КЛАНА</p>
-    <h2 class="history__title">КАК ВСЁ НАЧИНАЛОСЬ</h2>
+      <hr class="divider" />
 
-    <a href="https://t.me/ST46History" target="_blank" rel="noopener" class="history__link">
-      Хочешь узнать полную историю сообщества / Клана? Тогда тебе сюда!
-      <svg class="history__link-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </a>
+      <section id="about" class="history">
+        <p class="history__eyebrow">ИСТОРИЯ КЛАНА</p>
+        <h2 class="history__title">КАК ВСЁ НАЧИНАЛОСЬ</h2>
 
-    <ul class="timeline">
-      <li class="timeline__item">
-        <h3>2022</h3>
-        <p>Создание ST46. Небольшой приватный клан для друзей из одного города. Голосовые чаты, турниры и первые победы.</p>
-      </li>
-      <li class="timeline__item">
-        <h3>2023–2024</h3>
-        <p>Эпоха Stand Power. Рост, новые участники, первые большие цели. После банов — новая глава клана.</p>
-      </li>
-      <li class="timeline__item">
-        <h3>2025+</h3>
-        <p>Новый этап. Свой путь, новые люди, новые игры. ST46 — это не просто клан, это сообщество.</p>
-      </li>
-    </ul>
+        <a
+          href="https://t.me/ST46History"
+          target="_blank"
+          rel="noopener"
+          class="history__link"
+        >
+          Хочешь узнать полную историю сообщества / Клана? Тогда тебе сюда!
+          <svg
+            class="history__link-arrow"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M5 12h14M13 6l6 6-6 6"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
 
-    <p class="history__quote">ST46 — вместе мы сильнее.</p>
-  </section>
+        <ul class="timeline">
+          <li class="timeline__item">
+            <h3>2022</h3>
+            <p>
+              Создание ST46. Небольшой приватный клан для друзей из одного
+              города. Голосовые чаты, турниры и первые победы.
+            </p>
+          </li>
+          <li class="timeline__item">
+            <h3>2023–2024</h3>
+            <p>
+              Эпоха Stand Power. Рост, новые участники, первые большие цели.
+              После банов — новая глава клана.
+            </p>
+          </li>
+          <li class="timeline__item">
+            <h3>2025+</h3>
+            <p>
+              Новый этап. Свой путь, новые люди, новые игры. ST46 — это не
+              просто клан, это сообщество.
+            </p>
+          </li>
+        </ul>
 
-</main>
+        <p class="history__quote">ST46 — вместе мы сильнее.</p>
+      </section>
+    </main>
 
-<footer id="links" class="site-footer">
-  <p class="site-footer__copy">© ST46 2022 - 2026</p>
-  <div class="site-footer__socials">
-    <a href="https://discord.gg/EXEZMRpvZB" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.369A19.79 19.79 0 0 0 15.885 3c-.211.375-.457.879-.626 1.278a18.27 18.27 0 0 0-5.518 0A12.76 12.76 0 0 0 9.115 3 19.736 19.736 0 0 0 4.68 4.372C1.556 9.014.8 13.539 1.177 18.001a19.9 19.9 0 0 0 5.993 3.03 14.9 14.9 0 0 0 1.283-2.077 12.9 12.9 0 0 1-2.02-.968c.17-.124.336-.253.497-.386 3.896 1.792 8.118 1.792 11.968 0 .163.133.329.262.497.386-.641.382-1.322.71-2.02.968.375.727.804 1.42 1.283 2.078a19.84 19.84 0 0 0 5.997-3.031c.5-5.177-.838-9.66-3.338-13.632ZM8.02 15.278c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.955 2.428-2.157 2.428Zm7.96 0c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.947 2.428-2.157 2.428Z" fill="currentColor"/></svg>
-      Discord
-    </a>
-    <a href="https://t.me/PLACEHOLDER" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 4.5 3.6 11.2c-1 .4-1 1.8.1 2.1l4.3 1.3 1.6 5.1c.3.9 1.5 1.1 2 .3l2.4-3.3 4.5 3.3c.8.6 2 .2 2.2-.8l2.6-13c.2-1-.8-1.9-1.7-1.6Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M9 15.5 18 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
-      Telegram
-    </a>
-    <a href="https://youtube.com/PLACEHOLDER" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2.5" y="6" width="19" height="12" rx="3.5" stroke="currentColor" stroke-width="1.3"/><path d="M10.5 9.5v5l4.5-2.5-4.5-2.5Z" fill="currentColor"/></svg>
-      YouTube
-    </a>
-  </div>
-</footer>
+    <footer id="links" class="site-footer">
+      <p class="site-footer__copy">© ST46 2022 - 2026</p>
+      <div class="site-footer__socials">
+        <a href="https://discord.gg/EXEZMRpvZB" target="_blank" rel="noopener">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.317 4.369A19.79 19.79 0 0 0 15.885 3c-.211.375-.457.879-.626 1.278a18.27 18.27 0 0 0-5.518 0A12.76 12.76 0 0 0 9.115 3 19.736 19.736 0 0 0 4.68 4.372C1.556 9.014.8 13.539 1.177 18.001a19.9 19.9 0 0 0 5.993 3.03 14.9 14.9 0 0 0 1.283-2.077 12.9 12.9 0 0 1-2.02-.968c.17-.124.336-.253.497-.386 3.896 1.792 8.118 1.792 11.968 0 .163.133.329.262.497.386-.641.382-1.322.71-2.02.968.375.727.804 1.42 1.283 2.078a19.84 19.84 0 0 0 5.997-3.031c.5-5.177-.838-9.66-3.338-13.632ZM8.02 15.278c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.955 2.428-2.157 2.428Zm7.96 0c-1.183 0-2.157-1.09-2.157-2.428 0-1.339.955-2.429 2.157-2.429 1.21 0 2.176 1.098 2.157 2.429 0 1.338-.947 2.428-2.157 2.428Z"
+              fill="currentColor"
+            />
+          </svg>
+          Discord
+        </a>
+        <a href="https://t.me/SPth46" target="_blank" rel="noopener">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 4.5 3.6 11.2c-1 .4-1 1.8.1 2.1l4.3 1.3 1.6 5.1c.3.9 1.5 1.1 2 .3l2.4-3.3 4.5 3.3c.8.6 2 .2 2.2-.8l2.6-13c.2-1-.8-1.9-1.7-1.6Z"
+              stroke="currentColor"
+              stroke-width="1.3"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M9 15.5 18 8"
+              stroke="currentColor"
+              stroke-width="1.3"
+              stroke-linecap="round"
+            />
+          </svg>
+          Telegram
+        </a>
+      </div>
+    </footer>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
