@@ -45,7 +45,7 @@ if (currentYear < 2026)  {
   document.getElementById("year").textContent += "2026";
 }
 
-// --- Защита от копирования (демо-версия для клиента) ---
+// --- Защита от копирования ---
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 
 document.addEventListener("keydown", (e) => {
