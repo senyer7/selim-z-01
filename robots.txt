@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://st46.fun/sitemap.xml
+Sitemap: https://st46.site/sitemap.xml
