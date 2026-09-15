@@ -39,10 +39,11 @@ const navObserver = new IntersectionObserver(
 sections.forEach((section) => navObserver.observe(section));
 
 // --- Загрузка года по API ---
-const currentYear = Temporal.Now.plainDateTimeISO().year;
-document.getElementById("year").textContent += currentYear;
-if (currentYear < 2026)  {
-  document.getElementById("year").textContent += "2026";
+const yearElement = document.getElementById("year");
+const year = new Date().getFullYear();
+yearElement.textContent += year;
+if (year < 2026 || year > 2028) {
+  document.getElementById("year").textContent = "2026";
 }
 
 // --- Защита от копирования ---
